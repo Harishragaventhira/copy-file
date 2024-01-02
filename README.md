@@ -18,11 +18,17 @@ the content in the original file will be copied in the neww file
 ### Step 6: 
 end the program
 ## PROGRAM:
+```
 with open('original.txt','r') as fp:
  msg1=fb.read()
 with open('copy.txt','a')as fp1:
  fp1.write(msg1)
+```
 ### OUTPUT:
+![Screenshot 2024-01-02 215815](https://github.com/Harishragaventhira/copy-file/assets/145548269/77769b10-f588-4fd2-ab1e-4311b8b2ec5f)
+![Screenshot 2024-01-02 215830](https://github.com/Harishragaventhira/copy-file/assets/145548269/9b521508-fa76-4ae2-92ea-a2901b043c88)
+![Screenshot 2024-01-02 215844](https://github.com/Harishragaventhira/copy-file/assets/145548269/c7e8bf05-6d07-4b52-969b-4c58b3eec8a3)
+
 
 
 
